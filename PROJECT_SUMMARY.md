@@ -256,74 +256,9 @@ Use Postman or curl to test the API endpoints listed in README.md
 
 ---
 
-## VIVA-VOCE PREPARATION
 
-### What to Study:
-1. Read EXAM_EXPLANATIONS.md thoroughly
-2. Review VIVA_VOCE_GUIDE.md for common questions
-3. Understand VISUAL_DIAGRAMS.md for architecture
-4. Practice explaining each relationship with examples
-5. Be ready to show code and explain logic
 
-### Key Points to Remember:
-- Explain business logic (why logistics system needs these relationships)
-- Show how data flows from Controller → Service → Repository → Database
-- Demonstrate understanding of JPA annotations
-- Explain performance benefits of pagination
-- Show how relationships are mapped in database
 
-### During Examination:
-1. Start with ERD explanation
-2. Show entity classes and explain annotations
-3. Demonstrate repository methods
-4. Run the application and test endpoints
-5. Explain the logic clearly and confidently
 
----
 
-## MARKING BREAKDOWN
 
-| Requirement | Marks | Status |
-|------------|-------|--------|
-| ERD with 5 tables | 3 | ✅ Complete |
-| Saving Location | 2 | ✅ Complete |
-| Sorting & Pagination | 5 | ✅ Complete |
-| Many-to-Many | 3 | ✅ Complete |
-| One-to-Many | 2 | ✅ Complete |
-| One-to-One | 2 | ✅ Complete |
-| existsBy() | 2 | ✅ Complete |
-| Users by Province | 4 | ✅ Complete |
-| Viva-Voce | 7 | 📚 Study materials ready |
-| **TOTAL** | **30** | **Ready for Exam** |
-
----
-
-## FINAL CHECKLIST
-
-- ✅ All 5 entities created with proper annotations
-- ✅ All relationships implemented (One-to-One, One-to-Many, Many-to-Many)
-- ✅ All repositories with required methods
-- ✅ All services with business logic
-- ✅ All controllers with REST endpoints
-- ✅ Pagination and sorting implemented
-- ✅ existsBy() methods implemented
-- ✅ Custom queries for province search
-- ✅ Complete documentation
-- ✅ Sample data provided
-- ✅ Testing instructions included
-
----
-
-## IMPORTANT NOTES
-
-1. **No Java 8 Features Used**: All code uses traditional Java syntax (no lambdas, streams, Optional)
-2. **Minimal Code**: Only essential code included, no unnecessary complexity
-3. **Clear Explanations**: Every implementation has detailed explanation
-4. **Ready to Run**: Complete working application
-5. **Exam Ready**: All requirements met with documentation
-
----
-
-**Good luck with your practical examination on February 20, 2026!**
-
-**Remember:** Confidence comes from understanding. You have all the code and explanations. Study them well, and you'll do great!
