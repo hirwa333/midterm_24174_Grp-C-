@@ -136,6 +136,3 @@ Shipment: SHP001 (Electronics)
 - POST /api/shipments - Create shipment
 - POST /api/shipments/{id}/assign-vehicles - Assign vehicles
 
----
-
-**You're ready for the exam! 🇷🇼**
